@@ -92,6 +92,8 @@ alias l='ls -CF'
 ###################################  MAKE LIFE BETTER  ######################################
 alias a.restart='sudo service apache2 restart'
 alias a.newhost='cd /home/vladislav/web; sudo php newhost.php'
+alias s.cache='sudo rm -rf app/cache/*'
+alias s.permission='sudo chmod 777 -R /yourCurrentProjectFolder'
 
 #############################################################################################
 
